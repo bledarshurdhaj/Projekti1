@@ -14,61 +14,32 @@ return (
 	<h1 style={{ color: "green",
 				textAlign: "center",
 				marginTop: "-50px" }}>
-		GeeksforGeeks: A Computer Science Portal for Geeks
+	
 	</h1>
 	<Container>
 		<Row>
 		<Column>
-			<Heading>About Us</Heading>
-			<FooterLink href="#">Aim</FooterLink>
-			<FooterLink href="#">Vision</FooterLink>
-			<FooterLink href="#">Testimonials</FooterLink>
+			<Heading>Kompania</Heading>
+			<FooterLink href="#">Rreth Nesh</FooterLink>
+			<FooterLink href="#">Shërbimet</FooterLink>
+			<FooterLink href="#">Lajmet E Fundit</FooterLink>
 		</Column>
 		<Column>
-			<Heading>Services</Heading>
-			<FooterLink href="#">Writing</FooterLink>
-			<FooterLink href="#">Internships</FooterLink>
-			<FooterLink href="#">Coding</FooterLink>
-			<FooterLink href="#">Teaching</FooterLink>
+			<Heading>Ndihmë</Heading>
+			<FooterLink href="#">Pyetjet E Shpeshta</FooterLink>
+			<FooterLink href="#">Politika E Privatësisë</FooterLink>
+			<FooterLink href="#">Kushtet e  Përdorimi</FooterLink>
+			<FooterLink href="#">Kontaktoni</FooterLink>
 		</Column>
 		<Column>
-			<Heading>Contact Us</Heading>
-			<FooterLink href="#">Uttar Pradesh</FooterLink>
-			<FooterLink href="#">Ahemdabad</FooterLink>
-			<FooterLink href="#">Indore</FooterLink>
-			<FooterLink href="#">Mumbai</FooterLink>
+			<Heading>Kontakti</Heading>
+			<FooterLink href="#">Rilindja Kombëtare,
+Prishtin, Kosovo</FooterLink>
+			<FooterLink href="#">Email: Info@Isp-Bledi.net</FooterLink>
+			<FooterLink href="#">Tel: +383 (0) 45 888 855</FooterLink>
+			
 		</Column>
-		<Column>
-			<Heading>Social Media</Heading>
-			<FooterLink href="#">
-			<i className="fab fa-facebook-f">
-				<span style={{ marginLeft: "10px" }}>
-				Facebook
-				</span>
-			</i>
-			</FooterLink>
-			<FooterLink href="#">
-			<i className="fab fa-instagram">
-				<span style={{ marginLeft: "10px" }}>
-				Instagram
-				</span>
-			</i>
-			</FooterLink>
-			<FooterLink href="#">
-			<i className="fab fa-twitter">
-				<span style={{ marginLeft: "10px" }}>
-				Twitter
-				</span>
-			</i>
-			</FooterLink>
-			<FooterLink href="#">
-			<i className="fab fa-youtube">
-				<span style={{ marginLeft: "10px" }}>
-				Youtube
-				</span>
-			</i>
-			</FooterLink>
-		</Column>
+		
 		</Row>
 	</Container>
 	</Box>
