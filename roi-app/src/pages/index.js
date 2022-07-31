@@ -43,9 +43,23 @@ this.setState({displayBio:!this.state.displayBio});
         <div className="artikulli1">
           <img src={artikull1}></img>
         </div>
-        <p>Ekskluzive: “Big Brother” së shpejti për herë të parë në Kosovë | ArtMotion dhe KlanKosova
-Formati “Big Brother” po zgjerohet në një treg të ri mediatik, duke u transmetuar për herë të parë në territorin e Republikës të Kosovës, pas marrëveshjes me Banijay Rights.
+        <p>Formati “Big Brother” po zgjerohet në një treg të ri mediatik, duke u transmetuar për herë të parë në territorin e Republikës të Kosovës, pas marrëveshjes me Banijay Rights.
 
+Tashmë është zyrtare se marrëveshja ...
+{
+  this.state.displayBio ?(
+    <div>
+      <p>mes Banijay, Artmotion dhe KlanKosova do të sjellë edicionin Big Brother VIP për herë të parë në Kosovë, në sezonin e ardhshëm televiziv.
+
+Puna ka nisur si në aspektin teknik ashtu edhe në atë përmbajtësor dhe premiera e parë e spektaklit do të jetë në vjeshtë.</p>
+<button onClick={this.toggleDisplayBio}>Show Less </button>
+    </div>
+  ):(
+    <div>
+      <button onClick={this.toggleDisplayBio}>Lexo me shum</button>
+    </div>
+  )
+}
 </p>
       </div>
       <div className="lajmet2">
@@ -54,6 +68,20 @@ Formati “Big Brother” po zgjerohet në një treg të ri mediatik, duke u tra
           <p>Risitë në Artmotion nuk kanë të ndalur.
 
 Pas platformes Digitalb dhe SuperSport, Artmotion do te sjell edhe ngjarjet më madhore të futbollit evropian dhe botëror ndërsa ajka mbi ëmbëlsirë janë: të gjitha ndeshjet e Përfaqësueses së Kosovës dhe te gjitha  Përfaqësueset Evropiane deri në vitin 2028.
+{
+  this.state.displayBio ?(
+    <div>
+      <p>mes Banijay, Artmotion dhe KlanKosova do të sjellë edicionin Big Brother VIP për herë të parë në Kosovë, në sezonin e ardhshëm televiziv.
+
+Puna ka nisur si në aspektin teknik ashtu edhe në atë përmbajtësor dhe premiera e parë e spektaklit do të jetë në vjeshtë.</p>
+<button onClick={this.toggleDisplayBio}>Show Less </button>
+    </div>
+  ):(
+    <div>
+      <button onClick={this.toggleDisplayBio}>Lexo me shum</button>
+    </div>
+  )
+}
 </p>
         </div>
       </div>
