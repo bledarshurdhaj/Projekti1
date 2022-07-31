@@ -1,7 +1,24 @@
-.foto {
 
-   max-width:100px;
+.foto1 {
+    background-color: black;
 }
-.logo {
-    max-width:100px;
+.foto1 img {
+    width: 100%;
+}
+.fotot{
+    background-color: black;
+
+}
+.fotot img{
+    display: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    margin-left: 4.5cm;
+}
+.lajmet {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
