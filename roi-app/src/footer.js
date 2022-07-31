@@ -1,4 +1,5 @@
 import React from "react";
+
 import {
 Box,
 Container,
@@ -6,6 +7,8 @@ Row,
 Column,
 FooterLink,
 Heading,
+Foto,
+
 } from "./footerstyles";
 
 const Footer = () => {
@@ -16,14 +19,22 @@ return (
 				marginTop: "-50px" }}>
 	
 	</h1>
+	<Foto>
+		<img src={require('/Users/ar/Desktop/LABCourse-1/my-app/Projekti1/roi-app/src/foto/logo5.png')} alt='logo' />
+		</Foto>
 	<Container>
+
 		<Row>
+
 		<Column>
 			<Heading>Kompania</Heading>
+			<FooterLink href="#">Ballina</FooterLink>
 			<FooterLink href="#">Rreth Nesh</FooterLink>
 			<FooterLink href="#">Shërbimet</FooterLink>
-			<FooterLink href="#">Lajmet E Fundit</FooterLink>
-		</Column>
+			<FooterLink href="#">Kontakt</FooterLink>
+			<FooterLink href="#">Lajme</FooterLink>
+			</Column>
+		
 		<Column>
 			<Heading>Ndihmë</Heading>
 			<FooterLink href="#">Pyetjet E Shpeshta</FooterLink>

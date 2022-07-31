@@ -1,12 +1,16 @@
 
 .foto1 {
     background-color: black;
+    
 }
 .foto1 img {
     width: 100%;
 }
 .fotot{
+    padding-top: 2cm;
     background-color: black;
+padding-bottom: 2cm;
+
 
 }
 .fotot img{
@@ -17,34 +21,35 @@
     margin-left: 4.5cm;
 }
 .border{
-    
+    padding-bottom: 2cm;
 }
 .lajmet h1 {
 margin-top: 1cm;
-margin-left:44% ;
+margin-left:43% ;
 margin-bottom: 30px;
 }
 .lajmett {
-        display: flex;
-        display: column;
-        justify-content: center;
-        align-items: center;
-        margin-left: 4.5cm;
-        border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
     width: 80%;
+    margin: 0 auto;
+        
+
+    padding-bottom: 2cm;
 }
 .lajmett img {
-    border: 2px solid red;
+   
     width: 100%;
     
 }
 .lajmet1{
-    border: 5px solid rgb(8, 0, 255);
-
+    border:40px solid white;
 }
 .lajmet2{
-    border: 5px solid rgb(8, 0, 255);
+    border: 40px solid white;
 }
 .lajmet3{
-    border: 5px solid rgb(8, 0, 255);
+    border: 40px solid white;
 }
