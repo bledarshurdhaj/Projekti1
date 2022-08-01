@@ -5,7 +5,8 @@ import {
   Bars,
   NavMenu,
   NavBtn,
-  NavBtnLink
+  NavBtnLink,
+  
 } from './Navbarstyles';
 
 const Navbar = () => {

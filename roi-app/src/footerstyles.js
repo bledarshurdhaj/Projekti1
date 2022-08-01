@@ -61,7 +61,7 @@ text-decoration: none;
 export const Heading = styled.p`
 font-size: 24px;
 color: #fff;
-margin-bottom: 40px;
+margin-bottom: 30px;
 font-weight: bold;
 
 `;
