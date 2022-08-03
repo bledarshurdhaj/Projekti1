@@ -1,15 +1,15 @@
 import { ThemeProvider } from "styled-components";
 import { Container } from "../components/Styles/Container.styles";
 import GlobalStyles from "../components/Styles/Global";
-import content from "../components/content.js";
-import Card from "../components/cards";
+import content from "../components/Cards/content.services";
+import Card from "../components/Cards/Cards.services";
 import Footer from '../components/footer.js';
 
 const theme = {
   colors: {
     header: "#ebfbff",
-    body: "#fff",
-    footer: "#003333",
+    body: "#bbbb",
+
   },
   mobile: "768px",
 };
