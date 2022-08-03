@@ -8,10 +8,6 @@ import {
   NavBtnLink,
   
 } from './Navbarstyles';
-
-
-import { Link } from 'react-router-dom';
-
 const Navbar = () => {
   return (
     <>
@@ -36,7 +32,7 @@ const Navbar = () => {
           <NavLink to='/sign-up' activeStyle>
            Lajme
           </NavLink>
-        
+    
         </NavMenu>
         <NavBtn>
           <NavBtnLink to='/signin'>Kyquni</NavBtnLink>

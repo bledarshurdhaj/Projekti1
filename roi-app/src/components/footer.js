@@ -23,11 +23,11 @@ return (
 
 		<Column>
 			<Heading>Kompania</Heading>
-			<FooterLink href="#">Ballina</FooterLink>
-			<FooterLink href="#">Rreth Nesh</FooterLink>
-			<FooterLink href="#">Shërbimet</FooterLink>
-			<FooterLink href="#">Kontakt</FooterLink>
-			<FooterLink href="#">Lajme</FooterLink>
+			<FooterLink href="/">Ballina</FooterLink>
+			<FooterLink href="/rrethnesh">Rreth Nesh</FooterLink>
+			<FooterLink href="/services">Shërbimet</FooterLink>
+			<FooterLink href="/contact">Kontakt</FooterLink>
+			<FooterLink href="/signup">Lajme</FooterLink>
 			</Column>
 
 
