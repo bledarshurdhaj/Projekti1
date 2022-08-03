@@ -1,30 +1,35 @@
 import React from 'react';
 import './App.css';
-import Navbar from './Navbar';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Home from './pages';
-import rrethnesh from './pages/rrethnesh';
+import Navbar from './components/Navbar';
+import { BrowserRouter, Routes ,  Route } from 'react-router-dom';
+import Index from './pages/Index';
+import Rrethnesh from './pages/rrethnesh';
 import Services from './pages/services';
 import Contact from './pages/contact';
 import SignUp from './pages/signup';
+import { Switch } from 'react-router-dom';
+import Layout from './pages/Layout';
 
-import Footer from './footer'
+
+
+
 function App() {
   return (
 
-    <>
-   <Router>
-      <Navbar />
-      <Switch>
-        <Route path='/' exact component={Home} />
-        <Route path='/about' component={rrethnesh} />
-        <Route path='/services' component={Services} />
-        <Route path='/contact-us' component={Contact} />
-        <Route path='/sign-up' component={SignUp} />
-        <Route path='/' exact component={Home} />
-      </Switch>
-    
-    </Router>
+    <> 
+    <BrowserRouter>
+     <Routes>
+      <Route path='/' element={<Layout/>}>
+        <Route index element={<Index/>}/>
+        <Route path='/rrethnesh' element={<Rrethnesh/>}/>
+        <Route path='/services' element={<Services/>}/>
+        <Route path='/contact-us' element={<Contact/>}/>
+        <Route path='/sign-up' element={<SignUp/>}/>
+
+      </Route>
+     </Routes>
+    </BrowserRouter>
+  
     </>
 
 

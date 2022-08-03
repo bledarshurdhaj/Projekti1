@@ -20,8 +20,7 @@ export const Container = styled.div`
 	max-width:60%;
 	margin: 0 auto;   
 margin-right:2cm;
-	
-	
+
 
 `
 
@@ -40,9 +39,6 @@ grid-template-columns: repeat(auto-fill,
 						minmax(185px, 1fr));
 grid-gap: 20px;
 
-@media (max-width: 1000px) {
-	grid-template-columns: repeat(auto-fill,
-						minmax(200px, 1fr));
 }
 `;
 

@@ -1,8 +1,10 @@
 import React from 'react';
+
 import './rrethnesh.scss';
-import Footer from '../footer.js';
+import Footer from '../components/footer.js';
 import foto11 from '../foto/foto11.png';
-const rrethnesh = () => {
+
+const Rrethnesh = () => {
   return (
 <>
     <div className="contanier">
@@ -28,6 +30,7 @@ const rrethnesh = () => {
         <p>Shumë shpejt Artmotion bëhet emër shumë i njohur dhe sinonim për shumë ngjarje dhe kontente exlusive në platformën Televizive e po ashtu edhe bënë dallimin në ofrimin e shërbimit të shpejtë dhe cilësor. Në vitin 2019 Artmotion lëshon edhe OTT aplikacionin ARTMOTION ku përveç live stream të kanaleve më exclusive në vend ofrohen edhe shërbime tjera si VOD, CatchupTV, etj.</p>
         </div>
          </div>
+
                  <div className="footer">
                  <Footer/>
                  </div>
@@ -35,4 +38,4 @@ const rrethnesh = () => {
   );
 };
 
-export default rrethnesh;
+export default Rrethnesh;

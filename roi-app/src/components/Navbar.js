@@ -9,6 +9,9 @@ import {
   
 } from './Navbarstyles';
 
+
+import { Link } from 'react-router-dom';
+
 const Navbar = () => {
   return (
     <>
@@ -21,11 +24,11 @@ const Navbar = () => {
         <NavLink to='/' activeStyle>
             Ballina
           </NavLink>
-          <NavLink to='/about' activeStyle>
+          <NavLink to="/Rrethnesh" activeStyle>
             Rreth Nesh
           </NavLink>
           <NavLink to='/services' activeStyle>
-           Sherbimet 
+           Sherbimet
           </NavLink>
           <NavLink to='/contact-us' activeStyle>
            Kontakt
