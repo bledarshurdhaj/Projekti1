@@ -1,0 +1,66 @@
+@import "./theme/colors";
+@import "./theme/screenSizes";
+
+
+.button-88 {
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 0.7em 1.4em 0.7em 1.1em;
+  color: white;
+  background: #ad5389;
+  background: linear-gradient(0deg, rgba(20,167,62,1) 0%, rgba(102,247,113,1) 100%);
+  border: none;
+  box-shadow: 0 0.7em 1.5em -0.5em #14a73e98;
+  letter-spacing: 0.05em;
+  border-radius: 1em;
+  cursor: pointer;
+  touch-action: manipulation;
+  margin-left: 20cm;
+}
+
+.button-88:hover {
+  box-shadow: 0 0.5em 1.5em -0.5em #14a73e98;
+}
+
+.button-88:active {
+  box-shadow: 0 0.3em 1em -0.5em #14a73e98;
+}
+
+.card {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+    background-color: $ebardh;
+    border-radius: 24px;
+    box-shadow: 0 0 10px $ehint;
+    margin: 40px 0;
+    padding: 50px;
+ p{
+    margin-top: 20px;
+ }
+    h3 {
+        color: red;
+        margin-top: 40px;
+        
+    }
+
+    img {
+        width: 80%;
+    }
+
+    & > div {
+        flex: 1;
+    }
+
+    @media (max-width: $breakpoint-mobile) {
+        flex-direction: column;
+    }
+
+}
+

@@ -1,4 +1,4 @@
-import './cardstyles.scss';
+import './cardstyles-contacts.scss';
 
 import Foto34 from '../../foto/foto34.png';
 
@@ -19,7 +19,7 @@ export default function Cards({ item: {  name, lastname, biography, jobtitle, im
         <h1>{lastname}</h1>
         <p>{biography}</p>
         <h3>{jobtitle}</h3>
-        <img src={`./image/${image}`} alt="" />
+        
       </div>
       
     </div>
