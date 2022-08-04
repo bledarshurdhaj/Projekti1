@@ -1,8 +1,10 @@
 import './cardstyles-services.scss';
-
+import Foto42 from '../../foto/foto42.png';
 export default function Cards({ item: { id, title, description ,price} }) {
   return (
-    <div className="card" layout={id % 2 === 0 && 'row-reverse'}>
+
+    
+    <div className="card" >
       <div>
         <h2>{title}</h2>
         <p>{description}</p>
@@ -13,5 +15,6 @@ export default function Cards({ item: { id, title, description ,price} }) {
         <button class="button-88" role="button">BUY</button>
       </div>
     </div>
+
   );
 }

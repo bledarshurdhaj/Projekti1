@@ -1,10 +1,10 @@
 import React from 'react';
-
-import error from '../foto/error.png';
+import './nopage.scss';
+import error from '../foto/error404.png';
 
 const NoPage = () => {
   return (
-    <>
+    <div className="home">
 
     <div
       style={{
@@ -15,16 +15,11 @@ const NoPage = () => {
       }}
     >
       <h1>No Page Found Error 404 :</h1> </div>
-      <div
-      style={{
 
-        justifyContent: 'center',
-        alignItems: 'center',
-    
-      }}>
+      <div className="foto">
         <img src={error}></img>
       </div>
-      </>
+      </div>
     
   );
 };

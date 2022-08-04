@@ -4,7 +4,7 @@ import Foto34 from '../../foto/foto34.png';
 
 export default function Cards({ item: {  name, lastname, biography, jobtitle, image } }) {
   return (
-    <div className="home">
+    <div className="homee">
     <div className="foto">
     <div className="img">
     <img src={Foto34}></img>
