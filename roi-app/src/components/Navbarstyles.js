@@ -9,6 +9,10 @@ export const Nav = styled.nav`
   justify-content: space-between;
   padding: 0.5rem calc((100vw - 1000px) / 2);
   z-index: 10;
+  color: hsl(192, 100%, 9%);
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.15em;
+  margin: 0;
 
 
 `;

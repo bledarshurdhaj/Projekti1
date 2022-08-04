@@ -20,11 +20,14 @@ function Contact() {
     <ThemeProvider theme={theme}>
     <>
   <GlobalStyles/>
+
       <Container>
         {content.map((item, index) => (
           <Card key={index} item={item} />
         ))}
       </Container>
+
+      
       <Footer />
     </>
   </ThemeProvider>

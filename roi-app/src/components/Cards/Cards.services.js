@@ -1,5 +1,5 @@
 import './cardstyles-services.scss';
-import Foto42 from '../../foto/foto42.png';
+
 export default function Cards({ item: { id, title, description ,price} }) {
   return (
 
