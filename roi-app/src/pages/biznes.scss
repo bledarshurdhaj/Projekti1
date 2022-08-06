@@ -1,16 +1,32 @@
+.eee img {
+    width: 100%;
+    background-color: black;
+    padding-top: 2cm;
+}
 
-.first{
+.first {
 
-    .font{
+    .font {
         text-align: center;
-        color:black;
-        margin-top: 4cm;
+        color: black;
+        margin-top:1cm;
         margin-bottom: 0cm;
     }
-    .swiper-container{
+
+    .swiper-container {
         height: 50%;
-        border: 1px;
+
     }
+
+    .slide-kontenti {
+        border-radius: 10px;
+        background-color: white;
+        padding: 50px;
+        margin-bottom: 2cm;
+        margin-left: 2cm;
+        margin-right: 2cm;
+    }
+
     .cards {
         display: flex;
         flex-direction: row;
@@ -18,14 +34,31 @@
         justify-content: space-around;
         align-items: center;
         align-content: center;
-        background-color: white;
+        background-color: rgb(184, 183, 183);
         border-radius: 30px;
         box-shadow: 0 0 50px black;
         margin: 100px 0;
         margin-left: 2cm;
         margin-right: 2cm;
-        padding:100px;
+        padding: 100px;
         flex-direction: row;
+
+        .pako-image {
+            margin-left: 40%;
+            padding-bottom: 2cm;
+        }
+
+        .h3 {
+            font-size: 25px;
+            text-align: center;
+            padding-bottom: 1cm;
+        }
+
+        .pako-decription {
+            text-align: center;
+            color: rgb(220, 150, 9);
+        }
+
 
     }
 }
