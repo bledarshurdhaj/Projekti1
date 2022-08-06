@@ -5,6 +5,7 @@ import Index from './pages/Index';
 import Rrethnesh from './pages/rrethnesh';
 import Services from './pages/services';
 import Contact from './pages/contact';
+import Biznes from './pages/biznes';
 import SignUp from './pages/signup';
 import NoPage from './pages/nopage';
 import { Switch } from 'react-router-dom';
@@ -25,6 +26,7 @@ function App() {
         <Route path='/services' element={<Services/>}/>
         <Route path='/contact-us' element={<Contact/>}/>
         <Route path='/sign-up' element={<SignUp/>}/>
+        <Route path='/biznes' element={<Biznes/>}/>
         <Route path='*' element={<NoPage/>}/>
 
       </Route>

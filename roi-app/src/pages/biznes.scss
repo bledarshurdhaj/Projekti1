@@ -1,0 +1,31 @@
+
+.first{
+
+    .font{
+        text-align: center;
+        color:black;
+        margin-top: 4cm;
+        margin-bottom: 0cm;
+    }
+    .swiper-container{
+        height: 50%;
+        border: 1px;
+    }
+    .cards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+        background-color: white;
+        border-radius: 30px;
+        box-shadow: 0 0 50px black;
+        margin: 100px 0;
+        margin-left: 2cm;
+        margin-right: 2cm;
+        padding:100px;
+        flex-direction: row;
+
+    }
+}

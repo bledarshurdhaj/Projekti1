@@ -26,12 +26,16 @@ const Navbar = () => {
           <NavLink to='/services' activeStyle>
            Sherbimet
           </NavLink>
-          <NavLink to='/contact-us' activeStyle>
-           Kontakt
-          </NavLink>
           <NavLink to='/sign-up' activeStyle>
            Lajme
           </NavLink>
+          <NavLink to='/biznes' activeStyle>
+           Biznes
+          </NavLink>
+          <NavLink to='/contact-us' activeStyle>
+           Kontakt
+          </NavLink>
+
     
         </NavMenu>
         <NavBtn>

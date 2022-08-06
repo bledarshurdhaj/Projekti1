@@ -11,7 +11,7 @@ export const Nav = styled.nav`
   z-index: 10;
   color: hsl(192, 100%, 9%);
   font-family: 'Poppins', sans-serif;
-  font-size: 1.15em;
+  font-size: 1em;
   margin: 0;
 
 
@@ -52,7 +52,7 @@ export const Bars = styled(FaBars)`
 export const NavMenu = styled.div`
   display: flex;
   align-items: center;
-  margin-right: -24px;
+  margin-right:
   @media screen and (max-width: 768px) {
     display: none;
   }
@@ -61,7 +61,7 @@ export const NavMenu = styled.div`
 export const NavBtn = styled.nav`
   display: flex;
   align-items: center;
-  margin-right: 24px;
+  margin-right: px;
 
 
   @media screen and (max-width: 768px) {
