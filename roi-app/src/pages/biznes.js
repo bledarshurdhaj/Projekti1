@@ -48,7 +48,6 @@ function Biznes() {
   <img src={pako2}></img>
   </div>
             <div className="first">
-     
                 <h1 className="font">PAKOT PER BIZNESE</h1>
                 <div className="cards">
                     <Swiper

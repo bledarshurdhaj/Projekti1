@@ -23,15 +23,16 @@ const Navbar = () => {
           <NavLink to="/Rrethnesh" activeStyle>
             Rreth Nesh
           </NavLink>
+          <NavLink to='/biznes' activeStyle>
+           Biznes
+          </NavLink>
           <NavLink to='/services' activeStyle>
            Sherbimet
           </NavLink>
           <NavLink to='/sign-up' activeStyle>
            Lajme
           </NavLink>
-          <NavLink to='/biznes' activeStyle>
-           Biznes
-          </NavLink>
+
           <NavLink to='/contact-us' activeStyle>
            Kontakt
           </NavLink>
