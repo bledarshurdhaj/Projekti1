@@ -3,7 +3,10 @@ import React from 'react';
 import './biznes.scss';
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import Footer from '../components/footer';
-import pako1 from '../foto/pakoo.png';
+import Gaming from '../foto/gaming.png';
+import Hotel from '../foto/hotel.png';
+import Horeca from '../foto/horeca.png';
+import Osme from '../foto/sme.png';
 import pako2 from '../foto/foto400.png';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -15,29 +18,30 @@ import 'swiper/css/scrollbar';
 
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 
-const data = [
+const Data = [
     {
         id: 1,
         title: 'PAKO  GAMING CENTERS',
         description: 'Internet të dedikuar me shpejtësi të ndryshme , Shërbime të kombinuara, Internet dhe TV kabllor,Përkrahje teknike 24h',
+        image:Gaming
     },
     {
         id: 2,
         title: 'PAKO  HOTELE',
         description: 'Internet dhe DTV për çdo dhomë , Wi - Fi routera , Shërbim Teknik 24h , Zgjedhje të specializuara , Personel të dedikuar',
-
+        image:Hotel
     },
     {
         id: 3,
         title: 'PAKO HORECA',
-        description: 'Internet dhe DTV , Wi - Fi router për çdo lokal , VPN sipas kërkesës tuaj,Shërbim Teknik 24h',
-
+        description: 'Internet të dedikuar me shpejtësi të ndryshme ,  Wi - Fi router për çdo lokal , VPN sipas kërkesës tuaj,Zgjedhje të specializuara ,Shërbim Teknik 24h',
+        image:Horeca
     },
     {
         id: 4,
         title: 'PAKO OSME',
         description: 'Internet të dedikuar, Internet + DTV , VPN sipas kërkesës tuaj ,Ip Reale ,24h Përkrahje Teknike',
-
+        image:Osme
     },
 ]
 
@@ -60,11 +64,11 @@ function Biznes() {
                         onSwiper={(swiper) => console.log(swiper)}
                         onSlideChange={() => console.log('slide change')}
                     >
-                        {data.map(pako => (
+                        {Data.map(pako => (
                             <SwiperSlide key={pako.id} className="slide">
                                 <div className="slide-kontenti">
                                     <div className="pako-image">
-                                        <img src={pako1}></img>
+                                        <img src={pako.image}></img>
                                     </div>
                                     <h3 className="h3">{pako.title} </h3>
                                     <p className="pako-decription">{pako.description}</p>
@@ -78,6 +82,7 @@ function Biznes() {
             <div>
                 <Footer />
             </div>
+
         </>
     );
 };

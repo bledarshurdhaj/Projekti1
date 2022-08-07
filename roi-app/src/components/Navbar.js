@@ -29,7 +29,7 @@ const Navbar = () => {
           <NavLink to='/services' activeStyle>
            Sherbimet
           </NavLink>
-          <NavLink to='/sign-up' activeStyle>
+          <NavLink to='/lajme' activeStyle>
            Lajme
           </NavLink>
 
