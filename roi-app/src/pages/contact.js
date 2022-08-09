@@ -18,19 +18,19 @@ function Contact() {
   return (
 
     <ThemeProvider theme={theme}>
-    <>
-  <GlobalStyles/>
+      <>
+        <GlobalStyles />
 
-      <Container>
-        {content.map((item, index) => (
-          <Card key={index} item={item} />
-        ))}
-      </Container>
+        <Container>
+          {content.map((item, index) => (
+            <Card key={index} item={item} />
+          ))}
+        </Container>
 
-      
-      <Footer />
-    </>
-  </ThemeProvider>
+
+        <Footer />
+      </>
+    </ThemeProvider>
   );
 }
 

@@ -18,7 +18,7 @@ function Services() {
   return (
     <ThemeProvider theme={theme}>
       <>
-    <GlobalStyles/>
+        <GlobalStyles />
         <Container>
           {content.map((item, index) => (
             <Card key={index} item={item} />

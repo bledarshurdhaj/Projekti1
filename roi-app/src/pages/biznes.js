@@ -20,34 +20,34 @@ const Data = [
         id: 1,
         title: 'PAKO  GAMING CENTERS',
         description: 'Internet të dedikuar me shpejtësi të ndryshme , Shërbime të kombinuara, Internet dhe TV kabllor,Përkrahje teknike 24h',
-        image:Gaming
+        image: Gaming
     },
     {
         id: 2,
         title: 'PAKO  HOTELE',
         description: 'Internet dhe DTV për çdo dhomë , Wi - Fi routera , Shërbim Teknik 24h , Zgjedhje të specializuara , Personel të dedikuar',
-        image:Hotel
+        image: Hotel
     },
     {
         id: 3,
         title: 'PAKO HORECA',
         description: 'Internet të dedikuar me shpejtësi të ndryshme ,  Wi - Fi router për çdo lokal , VPN sipas kërkesës tuaj,Zgjedhje të specializuara ,Shërbim Teknik 24h',
-        image:Horeca
+        image: Horeca
     },
     {
         id: 4,
         title: 'PAKO OSME',
         description: 'Internet të dedikuar, Internet + DTV , VPN sipas kërkesës tuaj ,Ip Reale ,24h Përkrahje Teknike',
-        image:Osme
+        image: Osme
     },
 ]
 
 function Biznes() {
     return (
         <>
-  <div className="eee">
-  <img src={pako2}></img>
-  </div>
+            <div className="eee">
+                <img src={pako2}></img>
+            </div>
             <div className="first">
                 <h1 className="font">PAKOT PER BIZNESE</h1>
                 <div className="cards">
