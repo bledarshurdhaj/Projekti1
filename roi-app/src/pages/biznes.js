@@ -1,6 +1,5 @@
-
 import React from 'react';
-import './biznes.scss';
+import '../Style/biznes.scss';
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import Footer from '../components/footer';
 import Gaming from '../foto/gaming.png';
@@ -9,8 +8,6 @@ import Horeca from '../foto/horeca.png';
 import Osme from '../foto/sme.png';
 import pako2 from '../foto/foto400.png';
 import { Swiper, SwiperSlide } from 'swiper/react';
-
-
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';

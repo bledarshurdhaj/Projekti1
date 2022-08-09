@@ -1,6 +1,5 @@
 import React from 'react';
-
-import './rrethnesh.scss';
+import '../Style/rrethnesh.scss';
 import Footer from '../components/footer.js';
 import foto11 from '../foto/foto11.png';
 

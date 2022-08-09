@@ -1,5 +1,5 @@
 import React from 'react';
-import './nopage.scss';
+import '../Style/nopage.scss';
 import error from '../foto/error404.png';
 
 const NoPage = () => {

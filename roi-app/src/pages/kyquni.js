@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './kyquni.scss';
+import '../Style/kyquni.scss';
 import Button from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
@@ -16,7 +16,6 @@ function Kyquni() {
       event.preventDefault();
       event.stopPropagation();
     }
-
     setValidated(true);
   };
 
@@ -89,8 +88,8 @@ function Kyquni() {
       <Form.Group className="mb-3">
         <Form.Check
           required
-          label="Pajtohuni me termat dhe kushtet"
-          feedback="Duhet të bini dakord përpara se të dorëzoni."
+          label="Pajtohuni me termat dhe kushtet?"
+          feedback="Duhet të bini dakord përpara se ti dorëzoni."
           feedbackType="invalid"
         />
       </Form.Group>

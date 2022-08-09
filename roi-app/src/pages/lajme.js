@@ -1,7 +1,7 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card'
 import React,{useState} from 'react';
-import './lajme.scss';
+import '../Style/lajme.scss';
 
 function Lajme  () {
 

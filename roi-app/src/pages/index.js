@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './index.scss';
+import '../Style/index.scss';
 import foto1 from '../foto/foto1.png';
 import foto2 from '../foto/pakofull.png';
 import foto3 from '../foto/pakopremi.png';
