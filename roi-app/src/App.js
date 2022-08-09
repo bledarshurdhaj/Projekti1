@@ -9,7 +9,7 @@ import Biznes from './pages/biznes';
 import Lajme from './pages/lajme';
 import NoPage from './pages/nopage';
 import Kyquni from './pages/kyquni';
-
+import "bootstrap/dist/css/bootstrap.min.css";
 import Layout from './pages/Layout';
 
 
@@ -19,7 +19,7 @@ import Layout from './pages/Layout';
 function App() {
   return (
 
-    <> 
+    <>
     <BrowserRouter>
      <Routes>
       <Route path='/' element={<Layout/>}>
