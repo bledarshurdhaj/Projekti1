@@ -8,8 +8,10 @@ import Contact from './pages/contact';
 import Biznes from './pages/biznes';
 import Lajme from './pages/lajme';
 import NoPage from './pages/nopage';
-import { Switch } from 'react-router-dom';
+import Kyquni from './pages/kyquni';
+
 import Layout from './pages/Layout';
+
 
 
 
@@ -27,6 +29,7 @@ function App() {
         <Route path='/contact-us' element={<Contact/>}/>
         <Route path='/lajme' element={<Lajme/>}/>
         <Route path='/biznes' element={<Biznes/>}/>
+        <Route path='/kyquni' element={<Kyquni/>}/>
         <Route path='*' element={<NoPage/>}/>
 
       </Route>

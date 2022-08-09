@@ -40,7 +40,7 @@ const Navbar = () => {
     
         </NavMenu>
         <NavBtn>
-          <NavBtnLink to='/signin'>Kyquni</NavBtnLink>
+          <NavBtnLink to='/kyquni'>Kyquni</NavBtnLink>
         </NavBtn>
       </Nav>
     </>
